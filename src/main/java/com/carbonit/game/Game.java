@@ -14,7 +14,7 @@ public class Game {
     public static void main (String[] args) throws IOException {
         // Initialize scanner to read user input
         try (Scanner scanner = new Scanner(System.in)) {
-            String filePath = "";
+            String filePath;
             // Prompt user to enter the input file name
             System.out.println("Enter the name of the input file (e.g., input.txt):");
             String fileName = scanner.nextLine();
@@ -56,7 +56,5 @@ public class Game {
         } catch (IOException e) {
             System.out.println("Error: An I/O exception occurred while reading the file.");
         }
-        // Close the scanner to prevent resource leak
-
     }
 }
