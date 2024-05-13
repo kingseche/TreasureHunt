@@ -68,7 +68,6 @@ public class MovemetService {
         }
     }
 
-
     // Check if position is within map boundaries
     private boolean isWithinMapBounds(Map map, int x, int y) {
         return x >= 0 && x < map.getHorizontalAxis() && y >= 0 && y < map.getVerticalAxis();

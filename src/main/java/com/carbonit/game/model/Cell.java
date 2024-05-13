@@ -22,7 +22,7 @@ public class Cell {
     }
 
     public void setIsMountain(boolean isMountain) {
-        isMountain = isMountain;
+        this. isMountain = isMountain;
     }
 
     public void setNbTreasure(int nbTreasure) {
@@ -32,9 +32,4 @@ public class Cell {
     public int getNbTreasure(){
         return this.nbTreasure;
     }
-
-
-
-
-
 }
